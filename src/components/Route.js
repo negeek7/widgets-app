@@ -1,4 +1,4 @@
-import { React, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 const Route = ({ path, children }) => {
   const [currentURL, setCurrentURL] = useState(window.location.pathname);
